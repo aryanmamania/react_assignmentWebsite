@@ -1,0 +1,20 @@
+@keyframes move-send-button {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .send-button {
+    /* Add your desired styles for the send button */
+  }
+  
+  .send-animation {
+    animation: move-send-button 1s ease-in-out;
+  }
+  
